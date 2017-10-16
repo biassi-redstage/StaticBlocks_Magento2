@@ -33,9 +33,5 @@ class InstallData implements InstallDataInterface
 
             $this->blockFactory->create()->setData($cmsBlockData)->save();
         }
-
-        //if (version_compare($context->getVersion(), '1.0.1') < 0) {
-            //code to upgrade to 1.0.1
-        //}
     }
 }
